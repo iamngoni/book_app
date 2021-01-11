@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Chickens",
+    "image": "assets/categories/chicken-leg.png"
+  },
+  {
+    "name": "Turkeys",
+    "image": "assets/categories/turkey.png"
+  },
+  {
+    "name": "Ducks & Geese",
+    "image": "assets/categories/duck.png"
+  },
+  {
+    "name": "Guinea Fowl",
+    "image": "assets/categories/fowl.png"
+  }
+]
