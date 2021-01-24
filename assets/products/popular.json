@@ -1,0 +1,34 @@
+[
+  {
+  "name": "Broilers",
+  "category": "Chickens",
+  "image": "assets/products/broilers.jpeg",
+  "price": "5.00",
+  "state": "Live",
+  "weight": null
+  },
+  {
+  "name": "Roasters",
+  "category": "Chickens",
+  "image": "assets/products/roadrunner.jpeg",
+  "price": "8.00",
+  "state": "Live",
+  "weight": null
+  },
+  {
+  "name": "Turkeys",
+  "category": "Turkeys",
+  "image": "assets/products/turkeys.jpeg",
+  "price": "20.00",
+  "state": "Live",
+  "weight": null
+  },
+  {
+  "name": "Ducks & Geese",
+  "category": "Ducks & Geese",
+  "image": "assets/products/ducks.jpeg",
+  "price": "10.00",
+  "state": "Live",
+  "weight": null
+  }
+]
