@@ -17,7 +17,3 @@ class kDimension {
     return this.width * ratio;
   }
 }
-
-final Color kDark = Color(0xFF2C2C2C);
-final Color kGrey = Color(0xFFAFAEB0);
-final Color kOrange = Color(0xFFFF9900);

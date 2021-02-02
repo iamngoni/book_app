@@ -1,7 +1,6 @@
-import 'package:bukuta_poultry/pages/home.dart';
-import 'package:bukuta_poultry/state/cart.dart';
-import 'package:bukuta_poultry/state/products.dart';
-import 'package:bukuta_poultry/utils/index.dart';
+import 'package:bukuta_poultry/books/controllers/index.dart';
+import 'package:bukuta_poultry/books/pages/home.dart';
+import 'package:bukuta_poultry/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -13,8 +12,9 @@ void main() {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => ProductsController()),
-        ChangeNotifierProvider(create: (context) => CartController())
+        ChangeNotifierProvider(
+          create: (context) => BooksController(),
+        ),
       ],
       child: MyApp(),
     ),
@@ -26,27 +26,25 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Bukuta Poultry',
+      title: 'Book App',
       theme: ThemeData(
         primarySwatch: Colors.orange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Roboto',
       ),
       home: SplashScreen(
-          seconds: 5,
-          navigateAfterSeconds: Home(),
-          image: new Image.asset('assets/images/logo.jpeg'),
-          backgroundColor: Colors.white,
-          styleTextUnderTheLoader: new TextStyle(),
-          photoSize: 100.0,
-          loaderColor: kOrange,
+        seconds: 5,
+        navigateAfterSeconds: BooksHome(),
+        backgroundColor: Colors.white,
+        styleTextUnderTheLoader: new TextStyle(),
+        photoSize: 100.0,
         loadingText: Text(
-          'Bukuta Poultry',
+          'Book App Dribble Design Implementation By Ngonidzashe Mangudya',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 16,
           ),
+          textAlign: TextAlign.center,
         ),
       ),
     );

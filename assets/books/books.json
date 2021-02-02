@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Other Words For Home",
+    "author": "Jasmine Warga",
+    "categories": "Drama, Romance, Adventure",
+    "pages": "230",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus officia quas dolores! Ut natus, aut dolor odio sed esse vitae laboriosam, error quis itaque amet, officia nisi minima incidunt!",
+    "added_at": "3d 5h",
+    "reading": "75",
+    "image": "assets/images/otherwordsforhome.jpeg",
+    "rating": 5.0
+  },
+  {
+    "title": "The Municipalists",
+    "author": "Seth Fried",
+    "categories": "Drama, Romance",
+    "pages": "230",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus officia quas dolores! Ut natus, aut dolor odio sed esse vitae laboriosam, error quis itaque amet, officia nisi minima incidunt!",
+    "added_at": "10d 5h",
+    "reading": "23",
+    "image": "assets/images/municipalists.jpeg",
+    "rating": 3.4
+  },
+  {
+    "title": "Under Land",
+    "author": "Robert Macfarlane",
+    "categories": "Drama",
+    "pages": "160",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus officia quas dolores! Ut natus, aut dolor odio sed esse vitae laboriosam, error quis itaque amet, officia nisi minima incidunt!",
+    "added_at": "1d 2h",
+    "reading": "80",
+    "image": "assets/images/underland.jpeg",
+    "rating": 4.0
+  },
+  {
+    "title": "The Tiny Dragon",
+    "author": "Rupert Carta",
+    "categories": "Adventure",
+    "pages": "160",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus officia quas dolores! Ut natus, aut dolor odio sed esse vitae laboriosam, error quis itaque amet, officia nisi minima incidunt!",
+    "added_at": "1d 2h",
+    "reading": "80",
+    "image": null,
+    "rating": 4.5
+  }
+]
